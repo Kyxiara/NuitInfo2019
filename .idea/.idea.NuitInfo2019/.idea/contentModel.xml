@@ -10,6 +10,7 @@
         <e p="Scripts" t="Include">
           <e p="DialogueHolder.cs" t="Include" />
           <e p="DialogueManager.cs" t="Include" />
+          <e p="House.cs" t="Include" />
           <e p="Player.cs" t="Include" />
         </e>
       </e>
