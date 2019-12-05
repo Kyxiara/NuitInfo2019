@@ -5,31 +5,40 @@ using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {
-    public GameObject dialogueBox;
-    public Text dialogueText;
+    public Text dialogBoxText;
+    public Text dialogueInputText;
+    
+    private Text dialogueText;
 
     public bool dialogueActive;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        this.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (dialogueActive && Input.GetKeyDown(KeyCode.Return))
+        if (dialogueActive)
         {
-            dialogueBox.SetActive(false);
-            dialogueActive = false;
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                gameObject.SetActive(false);
+                dialogueActive = false;
+            }
+            else if (Input.GetKeyDown(KeyCode.Return))
+            {
+                dialogBoxText.text += "\nPlayer: " + dialogueInputText.text;
+            }
         }
     }
 
     public void ShowBox(string dialogue)
     {
         dialogueActive = true;
-        dialogueBox.SetActive(true);
-        dialogueText.text = dialogue;
+        gameObject.SetActive(true);
+        dialogBoxText.text = dialogue;
     }
 }
