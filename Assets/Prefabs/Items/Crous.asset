@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e664326ea352ce440bb043727dbd14cc, type: 3}
-  m_Name: New Item
+  m_Name: Crous
   m_EditorClassIdentifier: 
-  name: New Item
-  icon: {fileID: 0}
+  name: CROUS
+  icon: {fileID: 21300000, guid: ffcfa7418b792c74fabd4f232a86943f, type: 3}
   isDefaultItem: 0

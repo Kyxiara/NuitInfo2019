@@ -7,9 +7,6 @@ public class DialogueManager : MonoBehaviour
 {
     public Text dialogBoxText;
     public Text dialogueInputText;
-    
-    private Text dialogueText;
-
     public bool dialogueActive;
 
     // Start is called before the first frame update

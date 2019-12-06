@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e664326ea352ce440bb043727dbd14cc, type: 3}
-  m_Name: New Item
+  m_Name: RIB
   m_EditorClassIdentifier: 
-  name: New Item
-  icon: {fileID: 0}
+  name: RIB
+  icon: {fileID: 21300000, guid: b413e86b24fbef8498c2199b2bac6d00, type: 3}
   isDefaultItem: 0
