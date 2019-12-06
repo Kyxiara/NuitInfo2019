@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
     public float moveSpeed;
     private float distance;
 
-    public Rigidbody2D rigidbody;
+    public Rigidbody2D rb;
     public Animator animator;
 
     public GameObject points;
@@ -48,7 +48,7 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rigidbody.MovePosition(rigidbody.position + movement * Time.fixedDeltaTime * moveSpeed);
+        rb.MovePosition(rb.position + movement * Time.fixedDeltaTime * moveSpeed);
     }
 
     private IEnumerator DisplayPoints() {
