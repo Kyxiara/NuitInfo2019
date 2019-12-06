@@ -6,6 +6,45 @@
     <e p="D:\Documents\Unity Projects\NuitInfo2019" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Dev" t="Include">
+          <e p="Inventory" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="Items" t="Include">
+                <e p="item Variante" t="Include">
+                  <e p="Consumable.cs" t="Include" />
+                  <e p="Equipment.cs" t="Include" />
+                </e>
+                <e p="Item.cs" t="Include" />
+              </e>
+              <e p="Player" t="Include">
+                <e p="Inventory.cs" t="Include" />
+              </e>
+              <e p="UI Input" t="Include">
+                <e p="ButtonTransitioner.cs" t="Include" />
+                <e p="ClickableObject.cs" t="Include" />
+              </e>
+              <e p="UI Inventory" t="Include">
+                <e p="Player" t="Include">
+                  <e p="Drag and drop" t="Include">
+                    <e p="SlotDragAndDrop.cs" t="Include" />
+                  </e>
+                  <e p="Hotbar.cs" t="Include" />
+                  <e p="Panel Manager" t="Include">
+                    <e p="InventoryUI.cs" t="Include" />
+                  </e>
+                  <e p="Slot" t="Include">
+                    <e p="InventorySlot.cs" t="Include" />
+                  </e>
+                  <e p="SlotHolderManager.cs" t="Include" />
+                </e>
+                <e p="UIManagement" t="Include">
+                  <e p="UIKeepInScreen.cs" t="Include" />
+                  <e p="UIWindowDragable.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+        </e>
         <e p="Scripts" t="Include">
           <e p="APIManager.cs" t="Include" />
           <e p="CameraFollow.cs" t="Include" />
