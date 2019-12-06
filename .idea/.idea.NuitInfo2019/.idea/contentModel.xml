@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Stupzz\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Stupzz\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_NuitInfo2019.891334302.00" t="ExcludeRecursive" />
+    <e p="D:\UnityProject\NuitInfo2019" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Dev" t="Include">
+          <e p="Inventory" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="Items" t="Include">
+                <e p="item Variante" t="Include">
+                  <e p="Consumable.cs" t="Include" />
+                  <e p="Equipment.cs" t="Include" />
+                </e>
+                <e p="Item.cs" t="Include" />
+              </e>
+              <e p="Player" t="Include">
+                <e p="Inventory.cs" t="Include" />
+              </e>
+              <e p="UI Input" t="Include">
+                <e p="ButtonTransitioner.cs" t="Include" />
+                <e p="ClickableObject.cs" t="Include" />
+              </e>
+              <e p="UI Inventory" t="Include">
+                <e p="Player" t="Include">
+                  <e p="Drag and drop" t="Include">
+                    <e p="SlotDragAndDrop.cs" t="Include" />
+                  </e>
+                  <e p="Hotbar.cs" t="Include" />
+                  <e p="Panel Manager" t="Include">
+                    <e p="InventoryUI.cs" t="Include" />
+                  </e>
+                  <e p="Slot" t="Include">
+                    <e p="InventorySlot.cs" t="Include" />
+                  </e>
+                  <e p="SlotHolderManager.cs" t="Include" />
+                </e>
+                <e p="UIManagement" t="Include">
+                  <e p="UIKeepInScreen.cs" t="Include" />
+                  <e p="UIWindowDragable.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="DialogueHolder.cs" t="Include" />
+          <e p="DialogueManager.cs" t="Include" />
+          <e p="Player.cs" t="Include" />
+        </e>
+      </e>
+      <e p="NuitInfo2019.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
