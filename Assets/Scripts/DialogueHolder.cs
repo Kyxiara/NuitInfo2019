@@ -8,17 +8,19 @@ public class DialogueHolder : MonoBehaviour
     public string dialogue;
     private DialogueManager dialogueManager;
     private bool onTrigger;
+    private GiveItem giveItem;
+    public QuestManagement questManagement;
 
 
     private void Awake()
     {
+        giveItem = GetComponent<GiveItem>();
         dialogueManager = FindObjectOfType<DialogueManager>();
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        dialogueManager = FindObjectOfType<DialogueManager>();
         onTrigger = false;
     }
 
@@ -26,10 +28,18 @@ public class DialogueHolder : MonoBehaviour
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space) && onTrigger)
-        {
-            dialogueManager.ShowBox(dialogue);
+        
+            if (giveItem != null)
+            {
+                if (questManagement.questCrousActive == true)
+                    giveItem.give();
+            }
+            else
+            {
+                dialogueManager.ShowBox(dialogue);
+            }
         }
-    }
+    
 
     private void OnTriggerEnter2D(Collider2D other)
     {
